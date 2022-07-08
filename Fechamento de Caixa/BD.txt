@@ -1,0 +1,12 @@
+CREATE TABLE `worldfish`.`fechamento` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `aprazo` DOUBLE NULL,
+  `recebido` DOUBLE NULL,
+  `saida` DOUBLE NULL,
+  `cartao` DOUBLE NULL,
+  `caixaAtual` DOUBLE NULL,
+  `caixaAnterior` DOUBLE NULL,
+  `venda` DOUBLE NULL,
+  `sobra` DOUBLE NULL,
+  `data` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
